@@ -1,16 +1,18 @@
 import  random
+
 low= 1
 high= 50
-
 correct_answer = random.randint(low, high)
 
 def repeatGame():
     user_agree = input('If you want to restart, Please type "yes": ').lower()
     if user_agree == 'yes':
         game()
+
 def game():
     chance = 5
     win = False
+
     for num in range(0, 5):
         user_val = int(input('Please type a number between 1 & 50: '))
 
