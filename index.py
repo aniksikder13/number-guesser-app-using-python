@@ -3,7 +3,7 @@ low= 1
 high= 50
 
 correct_answer = random.randint(low, high)
-print(correct_answer)
+
 def repeatGame():
     user_agree = input('If you want to restart, Please type "yes": ').lower()
     if user_agree == 'yes':
